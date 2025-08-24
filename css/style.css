@@ -1,8 +1,26 @@
-body {
-    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+* {
+    box-sizing: border-box;
 }
 
-text-header {
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav {
+    margin: 0 0 80px 0;
+}
+
+main {
+    margin: 0 0 103px 0;
+}
+
+.text-header {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -14,6 +32,7 @@ text-header {
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
+    margin: 0 0 14px 0;
 }
 
 h1 {
@@ -21,6 +40,7 @@ h1 {
     font-weight: 400;
     font-size: 24px;
     line-height: 38px;
+    margin: 0 0 30px 0;
 }
 
 h2 {
@@ -28,6 +48,7 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    margin: 0 0 13px 0;
 }
 
 .text-white {
@@ -47,7 +68,13 @@ h2 {
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
+    margin: 0 0 28px 0;
 }
+
+.macs {
+    margin: 0 0 69px 0;
+}
+
 
 .text-main {
     font-family: "Roboto", sans-serif;
@@ -79,4 +106,5 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    margin: 0 0 77px 0;
 }
