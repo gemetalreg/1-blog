@@ -4,33 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Регистрация</h1>
-      <div>Уже есть аккаунт? <a href="#">Войти</a></div>
-    </header>
-    <main>
-      <h2>Моя компания</h2>
-      <form action="">
+    <article>
+      <header>
+        <h1>Регистрация</h1>
         <div>
-          <input type="text" placeholder="Имя" />
-          <input type="text" placeholder="Фамилия" />
+          <span class="ifaccount">Уже есть аккаунт?</span
+          ><a class="enter" href="#">Войти</a>
         </div>
+      </header>
+      <main>
+        <h2>Моя компания</h2>
+        <form action="">
+          <div>
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Фамилия" />
+          </div>
+          <div>
+            <input type="email" name="email" id="email" placeholder="E-mail" />
+          </div>
+          <button type="submit">Зарегистрироваться</button>
+        </form>
+        <br />
+      </main>
+      <footer>
         <div>
-          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <input type="checkbox" class="agree" name="agree" id="agree" /><label
+            for="agree"
+            >Я прочитал и принимаю</label
+          >
+          <a href="#" class="terms">Условия использования</a>
         </div>
-        <button type="submit">Зарегистрироваться</button>
-      </form>
-      <br />
-    </main>
-    <footer>
-      <div>
-        <input type="checkbox" name="agree" id="agree" /><label for="agree"
-          >Я прочитал и принимаю</label
-        >
-        <a href="#">Условия использования</a>
-      </div>
-    </footer>
+      </footer>
+    </article>
   </body>
 </html>
