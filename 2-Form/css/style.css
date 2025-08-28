@@ -1,19 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background: linear-gradient(0deg, #F39494, #F39494),
             linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
             linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
+    margin: 0;
+    padding: 0;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 article {
-    background: #FFFEFE;
+    background: rgba(255, 254, 254, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 93px 91px 93px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     color: #333333;
     font-size: 36px;
     font-weight: 700;
+    margin: 0;
 }
+
+h1 + div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 47px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
 
 .ifaccount {
     color: #666666;
@@ -43,10 +90,12 @@ h2 {
     color: #333333;
     font-size: 18px;
     font-weight: 600;
+    margin: 0;
 }
 
 input {
     background-color: #F5F5F5;
+    border: none;
 }
 
 button {
@@ -54,4 +103,39 @@ button {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+#name, #surname, #email, button {
+    height: 44px;
+}
+
+#name {
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+}
+
+#surname {
+    border-radius: 0 5px 5px 0 ;
+    -webkit-border-radius: 0 5px 5px 0 ;
+    -moz-border-radius: 0 5px 5px 0 ;
+    -ms-border-radius: 0 5px 5px 0 ;
+    -o-border-radius: 0 5px 5px 0 ;
+}
+
+#email {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
