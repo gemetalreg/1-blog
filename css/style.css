@@ -10,14 +10,26 @@ body {
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    column-gap: 55px;
 }
 
 nav {
     margin: 0 0 80px 0;
 }
 
-main {
-    margin: 0 0 103px 0;
+nav input {
+    background: rgba(31, 41, 55, 0.6);
+    border: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.text-header.blog {
+    font-size: 18px;
 }
 
 .text-header {
@@ -25,6 +37,7 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
+    text-decoration: none;
 }
 
 .text-frontend {
@@ -33,6 +46,11 @@ main {
     font-size: 14px;
     line-height: 100%;
     margin: 0 0 14px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    
 }
 
 h1 {
@@ -48,7 +66,10 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    margin: 0 0 13px 0;
+}
+
+h2, h3 {
+    margin: 0;
 }
 
 .text-white {
@@ -72,6 +93,7 @@ h2 {
 }
 
 .macs {
+    width: 100%;
     margin: 0 0 69px 0;
 }
 
@@ -97,6 +119,38 @@ h2 {
     line-height: 30px;
 }
 
+.dev-info {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 28px;
+}
+
+.nataliy-dev {
+    width: 50px;
+    height: 50px;
+}
+
+.dev-name-prof {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 95%;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto 103px;
+}
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+
 .footer-color {
     color: rgba(255, 255, 255, 0.6);
 }
@@ -107,4 +161,5 @@ h2 {
     font-size: 16px;
     line-height: 28px;
     margin: 0 0 77px 0;
+    text-align: center;
 }
