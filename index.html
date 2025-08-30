@@ -4,26 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colors</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li>Мой блог</li>
-          <li>HTML и CSS</li>
-          <li>Frontend</li>
-          <li>Backend</li>
-          <li>Поиск</li>
+          <li><a href="#" class="text-white text-header blog">Мой блог</a></li>
+          <li><a href="#" class="text-white text-header">HTML и CSS</a></li>
+          <li><a href="#" class="text-white text-header">Frontend</a></li>
+          <li>
+            <a href="#" class="text-white text-header" class="backend"
+              >Backend</a
+            >
+          </li>
+          <li><input type="text" placeholder="Поиск" /></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
-        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-        <h2>Наталья Васильева</h2>
-        <h3>Разработчик</h3>
-        <img src="./images/Rectangle 181.png" alt="imac и mac mini" />
-        <p>
+        <p class="text-white-alpha text-frontend">
+          FRONTEND <img src="./images/Rectangle.png" alt="rectagle" /> 12 мая
+          2024
+        </p>
+        <h1 class="text-white">
+          Теория цвета - Как цвет влияет на поведение потребителей
+        </h1>
+        <div class="dev-info">
+          <img
+            src="./images/nataliy_dev.png"
+            alt="nataliy_dev"
+            class="nataliy-dev"
+          />
+          <div class="dev-name-prof">
+            <h2 class="text-white">Наталья Васильева</h2>
+            <h3 class="dev-color dev-text">Разработчик</h3>
+          </div>
+        </div>
+        <img
+          src="./images/Rectangle 181.png"
+          alt="imac и mac mini"
+          class="macs"
+        />
+        <p class="text-white text-main">
           Теория цвета — это особенности эмоционального восприятия человеком тех
           или иных цветовых решений. Цвета и различные их комбинации влияют на
           психику человека, а значит, во многом определяют его поведение.
@@ -33,22 +57,26 @@
           подтолкнуть посетителей к совершению целевых действий, повысить
           конверсию.
         </p>
-        <p>
+        <p class="text-white text">
           Универсального ответа на вопрос, как тот или иной цвет влияет на
           разных людей, нет. Эмоциональная и поведенческая реакция каждого
           человека зависит от личного опыта. Вместе с тем можно выделить
           определенные закономерности влияния цветов на поведение пользователей.
         </p>
-        <p>
-          В исследовании «Влияние цвета на маркетинг» (Impact of color on
-          marketing) говорится, что использование разных цветов может
-          существенно влиять на настроение и поведение потребителей.
-          Утверждается, что от 60 до 90% покупателей (в зависимости от категории
-          продукта) дают положительную или отрицательную оценку товару,
-          основываясь только на его цвете.
+        <p class="text-white text">
+          В исследовании «Влияние цвета на маркетинг» (<a
+            href="https://www.researchgate.net/publication/235320162_Impact_of_color_on_marketing"
+            class="research-color text-white"
+            >Impact of color on marketing</a
+          >) говорится, что использование разных цветов может существенно влиять
+          на настроение и поведение потребителей. Утверждается, что от 60 до 90%
+          покупателей (в зависимости от категории продукта) дают положительную
+          или отрицательную оценку товару, основываясь только на его цвете.
         </p>
       </section>
     </main>
-    <footer>Все права защищены (c) 2024</footer>
+    <footer class="footer-color footer-text">
+      Все права защищены (c) 2024
+    </footer>
   </body>
 </html>

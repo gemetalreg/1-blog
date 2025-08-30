@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 55px;
+}
+
+nav {
+    margin: 0 0 80px 0;
+}
+
+nav input {
+    background: rgba(31, 41, 55, 0.6);
+    border: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.text-header.blog {
+    font-size: 18px;
+}
+
+.text-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.text-frontend {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    margin: 0 0 14px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 0 0 30px 0;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-white-alpha {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.dev-color {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.dev-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 28px 0;
+}
+
+.macs {
+    width: 100%;
+    margin: 0 0 69px 0;
+}
+
+
+.text-main {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.research-color {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.dev-info {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 28px;
+}
+
+.nataliy-dev {
+    width: 50px;
+    height: 50px;
+}
+
+.dev-name-prof {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 95%;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto 103px;
+}
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+
+.footer-color {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 77px 0;
+    text-align: center;
+}
