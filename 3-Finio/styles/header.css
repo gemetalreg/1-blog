@@ -1,0 +1,29 @@
+.finio-header {
+    background: var(--color-bg-best);
+    padding: 40px 0;
+}
+
+.finio-header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finio-header__list {
+    list-style: none;
+    display: flex;
+    column-gap: 32px;
+}
+
+.finio-header__list__item__link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--color-best-lightest-text);
+}
+
+.finio-header__list__item__link:hover {
+    color: var(--color-best-text);
+}
