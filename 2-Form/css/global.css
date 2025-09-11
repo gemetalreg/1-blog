@@ -1,0 +1,72 @@
+:root {
+    --color-dark: #333333;
+    --color-dark-sub: #666666;
+    --color-sub-link: #089FE0;
+    --color-brightest: #FFFFFF;
+    --color-bright: #FFFEFE;
+    --color-light: #F5F5F5;
+
+
+    --shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    --border-5: 5px;
+    --border-10: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    background: linear-gradient(0deg, #F39494, #F39494),
+            linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+            linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    background: rgba(255, 254, 254, 1);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-10);
+    -webkit-border-radius: var(--border-10);
+    -moz-border-radius: var(--border-10);
+    -ms-border-radius: var(--border-10);
+    -o-border-radius: var(--border-10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 93px 91px 93px;
+}
+
+input {
+    background-color: var(--color-light);
+    border: none;
+}
+
+@media (max-width: 640px) {
+    .form {
+        padding: 72px 53px 91px 53px;
+    }
+}

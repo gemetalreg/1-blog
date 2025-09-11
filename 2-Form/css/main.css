@@ -1,0 +1,91 @@
+.form-main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.form-main__sub-header {
+    color: var(--color-dark);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.form-main__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.form-main__fields {
+    display: grid;
+    grid-template-areas:
+     "name surname"
+     "email email"
+     "submit submit";
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 22px 4px;
+}
+
+.form-main__field__name {
+    grid-area: name;
+    border-radius: var(--border-5) 0 0 var(--border-5);
+    -webkit-border-radius: var(--border-5) 0 0 var(--border-5);
+    -moz-border-radius: var(--border-5) 0 0 var(--border-5);
+    -ms-border-radius: var(--border-5) 0 0 var(--border-5);
+    -o-border-radius: var(--border-5) 0 0 var(--border-5);
+
+}
+
+.form-main__field__surname {
+    grid-area: surname;
+    border-radius: 0 var(--border-5) var(--border-5) 0;
+    -webkit-border-radius: 0 var(--border-5) var(--border-5) 0;
+    -moz-border-radius: 0 var(--border-5) var(--border-5) 0;
+    -ms-border-radius: 0 var(--border-5) var(--border-5) 0;
+    -o-border-radius: 0 var(--border-5) var(--border-5) 0;
+
+}
+
+.form-main__field__email {
+    grid-area: email;
+    border-radius: var(--border-5);
+    -webkit-border-radius: var(--border-5);
+    -moz-border-radius: var(--border-5);
+    -ms-border-radius: var(--border-5);
+    -o-border-radius: var(--border-5);
+}
+
+.form-main__submit {
+    grid-area: submit;
+    background-color: var(--color-sub-link);
+    color: var(--color-brightest);
+    border: none;
+    border-radius: var(--border-5);
+    -webkit-border-radius: var(--border-5);
+    -moz-border-radius: var(--border-5);
+    -ms-border-radius: var(--border-5);
+    -o-border-radius: var(--border-5);
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.form-main__submit__arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 22px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.form-main__field__name,
+.form-main__field__surname,
+.form-main__field__email,
+.form-main__submit {
+    height: 44px;
+}
+

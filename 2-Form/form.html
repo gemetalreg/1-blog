@@ -4,33 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-    <header>
-      <h1>Регистрация</h1>
-      <div>Уже есть аккаунт? <a href="#">Войти</a></div>
-    </header>
-    <main>
-      <h2>Моя компания</h2>
-      <form action="">
-        <div>
-          <input type="text" placeholder="Имя" />
-          <input type="text" placeholder="Фамилия" />
+    <article class="form">
+      <header class="form-header">
+        <h1 class="form-header__registration">Регистрация</h1>
+        <div class="form-header__account">
+          <span class="form-header__ifaccount">Уже есть аккаунт?</span
+          ><a class="form-header__enter" href="#">Войти</a>
         </div>
-        <div>
-          <input type="email" name="email" id="email" placeholder="E-mail" />
+      </header>
+      <main class="form-main">
+        <h2 class="form-main__sub-header">Моя компания</h2>
+        <form class="form-main__form" action="">
+          <div class="form-main__fields">
+            <input
+              type="text"
+              placeholder="Имя"
+              class="form-main__field__name"
+              id="name"
+            />
+            <input
+              type="text"
+              placeholder="Фамилия"
+              class="form-main__field__surname"
+              id="surname"
+            />
+            <input
+              type="email"
+              name="email"
+              class="form-main__field__email"
+              id="email"
+              placeholder="E-mail"
+            />
+            <button class="form-main__submit" type="submit">
+              Зарегистрироваться
+              <img
+                class="form-main__submit__arrow-right"
+                src="./images/arrow_right.svg"
+                alt="arrow right"
+              />
+            </button>
+          </div>
+        </form>
+      </main>
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <input
+            type="checkbox"
+            class="footer__agree"
+            name="agree"
+            id="agree"
+          /><label for="agree">Я прочитал и принимаю</label>
+          <a href="#" class="footer__terms">Условия использования</a>
         </div>
-        <button type="submit">Зарегистрироваться</button>
-      </form>
-      <br />
-    </main>
-    <footer>
-      <div>
-        <input type="checkbox" name="agree" id="agree" /><label for="agree"
-          >Я прочитал и принимаю</label
-        >
-        <a href="#">Условия использования</a>
-      </div>
-    </footer>
+      </footer>
+    </article>
   </body>
 </html>

@@ -1,0 +1,45 @@
+:root {
+    --color-text: #fff;
+    --color-text-alpha: rgba(255, 255, 255, 0.6);
+
+    --color-bg-input: rgba(31, 41, 55, 0.6);
+
+    --color-grad-start: #374151;
+    --color-grad-end: #111827;
+
+    --border-100: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, var(--color-grad-start) 0%, var(--color-grad-end) 100%);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.mb-40 {
+    margin-bottom: 40px;;
+}
