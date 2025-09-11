@@ -1,0 +1,10 @@
+.footer__agree {
+    color: var(--color-dark-sub);
+    background: #FFFEFE;
+    font-size: 14px;
+}
+
+.footer__terms {
+    color: var(--color-sub-link);
+    font-size: 14px;
+}
