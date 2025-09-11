@@ -4,50 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#" class="text-white text-header blog">Мой блог</a></li>
-          <li><a href="#" class="text-white text-header">HTML и CSS</a></li>
-          <li><a href="#" class="text-white text-header">Frontend</a></li>
-          <li>
-            <a href="#" class="text-white text-header" class="backend"
-              >Backend</a
+    <header class="theory-color__header">
+      <nav class="theory-color__nav">
+        <ul class="theory-color__lists">
+          <li class="theory-color__list">
+            <a href="#" class="theory-color__link theory-color__link_blog"
+              >Мой блог</a
             >
           </li>
-          <li><input type="text" placeholder="Поиск" /></li>
+          <li class="theory-color__list">
+            <a href="#" class="theory-color__link">HTML и CSS</a>
+          </li>
+          <li class="theory-color__list">
+            <a href="#" class="theory-color__link">Frontend</a>
+          </li>
+          <li class="theory-color__list">
+            <a href="#" class="theory-color__link" class="backend">Backend</a>
+          </li>
         </ul>
+        <input class="theory-color__search" type="text" placeholder="Поиск" />
       </nav>
     </header>
     <main>
-      <section>
-        <p class="text-white-alpha text-frontend">
+      <section class="theory-color">
+        <p class="theory-color__text-frontend">
           FRONTEND <img src="./images/Rectangle.png" alt="rectagle" /> 12 мая
           2024
         </p>
-        <h1 class="text-white">
+        <h1 class="theory-color__influence">
           Теория цвета - Как цвет влияет на поведение потребителей
         </h1>
-        <div class="dev-info">
-          <img
-            src="./images/nataliy_dev.png"
-            alt="nataliy_dev"
-            class="nataliy-dev"
-          />
-          <div class="dev-name-prof">
-            <h2 class="text-white">Наталья Васильева</h2>
-            <h3 class="dev-color dev-text">Разработчик</h3>
+        <div class="theory-color__dev-info">
+          <div>
+            <img
+              src="./images/nataliy_dev.png"
+              alt="nataliy_dev"
+              class="theory-color__nataliy-dev"
+            />
+          </div>
+          <div class="theory-color__dev-name-prof">
+            <h2 class="theory-color__name">Наталья Васильева</h2>
+            <h3 class="theory-color__prof dev-text">Разработчик</h3>
           </div>
         </div>
         <img
           src="./images/Rectangle 181.png"
           alt="imac и mac mini"
-          class="macs"
+          class="theory-color__macs"
         />
-        <p class="text-white text-main">
+        <p class="theory-color__text-main mb-40">
           Теория цвета — это особенности эмоционального восприятия человеком тех
           или иных цветовых решений. Цвета и различные их комбинации влияют на
           психику человека, а значит, во многом определяют его поведение.
@@ -57,16 +74,16 @@
           подтолкнуть посетителей к совершению целевых действий, повысить
           конверсию.
         </p>
-        <p class="text-white text">
+        <p class="theory-color__text mb-40">
           Универсального ответа на вопрос, как тот или иной цвет влияет на
           разных людей, нет. Эмоциональная и поведенческая реакция каждого
           человека зависит от личного опыта. Вместе с тем можно выделить
           определенные закономерности влияния цветов на поведение пользователей.
         </p>
-        <p class="text-white text">
+        <p class="theory-color__text">
           В исследовании «Влияние цвета на маркетинг» (<a
             href="https://www.researchgate.net/publication/235320162_Impact_of_color_on_marketing"
-            class="research-color text-white"
+            class="theory-color__research-color"
             >Impact of color on marketing</a
           >) говорится, что использование разных цветов может существенно влиять
           на настроение и поведение потребителей. Утверждается, что от 60 до 90%
@@ -75,7 +92,7 @@
         </p>
       </section>
     </main>
-    <footer class="footer-color footer-text">
+    <footer class="theory-color__footer-text">
       Все права защищены (c) 2024
     </footer>
   </body>

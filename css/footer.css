@@ -1,0 +1,10 @@
+
+.theory-color__footer-text {
+    color: var(--color-text-alpha);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 77px 0;
+    display: flex;
+    justify-content: center;
+}

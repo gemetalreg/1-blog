@@ -1,0 +1,80 @@
+main {
+    width: 80%;
+    margin: 0 auto 103px;
+}
+
+.theory-color__text-frontend {
+    color: var(--color-text-alpha);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    margin: 0 0 14px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.theory-color__influence {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 0 0 30px 0;
+}
+
+.theory-color__dev-info {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 28px;
+}
+
+.theory-color__nataliy-dev {
+    width: 100%;
+    display: block;
+}
+
+.theory-color__dev-name-prof {
+    display: flex;
+    flex-direction: column;
+}
+
+.theory-color__name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.theory-color__prof {
+    color: var(--color-text-alpha);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 28px 0;
+}
+
+.theory-color__macs {
+    width: 100%;
+    margin: 0 0 69px 0;
+}
+
+.theory-color__text-main {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.theory-color__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.theory-color__research-color {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-text);
+    text-decoration: underline;
+}
